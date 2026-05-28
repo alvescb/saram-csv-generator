@@ -1,6 +1,10 @@
 # SARAM CSV Generator
 
-Ferramenta web para geração automática de arquivos CSV a partir de múltiplos SARAMs.
+## 🎯 Objetivo
+
+Desenvolvi esta ferramenta web para facilitar atividades do meu trabalho atual, automatizando processos repetitivos relacionados à geração de arquivos CSV promovendo mais agilidade e padronização.
+Além disso, o desenvolvimento da ferramenta também contribuiu para o meu aprimoramento prático em HTML5, CSS3 e JavaScript.
+
 
 ## 🚀 Funcionalidades
 
@@ -27,10 +31,6 @@ Ferramenta web para geração automática de arquivos CSV a partir de múltiplos
 2. Preencha os demais campos
 3. Clique em "Gerar CSV"
 4. Utilize o botão "Copiar CSV" para copiar o conteúdo gerado
-
-## 🎯 Objetivo
-
-Facilitar o preenchimento e exportação de dados em formato CSV de maneira rápida e padronizada.
 
 ## 👨‍💻 Autor
 
