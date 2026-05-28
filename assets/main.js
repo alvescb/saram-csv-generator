@@ -44,7 +44,7 @@ btn.addEventListener("click", () => {
         return;
     }
 
-    const saramValor = saram.value.split(',').map(item => item.trim());
+    const saramValor = saram.value.split(/[\s,]+/).filter(item => item !== '');
     const designacaoValor = designacao.value;
     const localValor = local.value;
     const dataValor = new Date(data.value)
