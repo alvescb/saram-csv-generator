@@ -19,7 +19,7 @@ Ferramenta web para geração automática de arquivos CSV a partir de múltiplos
 
 ## 📸 Preview
 
-![Preview](gerador-csv/assets/img/PreviewScreenshot.png)
+![Preview](assets/img/PreviewScreenshot.png)
 
 ## 📋 Como usar
 
