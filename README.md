@@ -23,7 +23,7 @@ Além disso, o desenvolvimento da ferramenta também contribuiu para o meu aprim
 
 ## 📸 Preview
 
-![Preview](img/Capturadetela.png)
+![Preview](img/CapturadetelaCSV.png)
 
 ## 📋 Como usar
 
