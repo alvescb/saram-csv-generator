@@ -65,7 +65,7 @@ document.querySelectorAll('.content').forEach(section => {
             saramValor,
             designacao.value,
             local?.value,
-            new Date(data.value).toLocaleDateString("pt-BR"),
+            formatarDataBR(data.value),
             legislacao?.value
         );
 
@@ -131,7 +131,11 @@ document.querySelectorAll('.content').forEach(section => {
     }
 
 
-
+    function formatarDataBR(dataISO) {
+        if (!dataISO) return "";
+        const [ano, mes, dia] = dataISO.split('-');
+        return `${dia}/${mes}/${ano}`;
+    }
 
 
 
