@@ -27,7 +27,7 @@ Além disso, o desenvolvimento da ferramenta também contribuiu para o meu aprim
 
 ## 📋 Como usar
 
-1. Digite os SARAMs separados por vírgula
+1. Digite os SARAMs separados por vírgula ou espaço
 2. Preencha os demais campos
 3. Clique em "Gerar CSV"
 4. Utilize o botão "Copiar CSV" para copiar o conteúdo gerado
