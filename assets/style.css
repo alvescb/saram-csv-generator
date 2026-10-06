@@ -15,23 +15,24 @@ body {
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
     display: flex;
-    min-width: 100vw;
+    width: 100%;
     min-height: 100vh;
     gap: 5rem;
     background: #f0f6fc;
-    background-image: url(img/luke-chesser-pJadQetzTkI-unsplash.jpg);
+    background-image: url(/gerador-de-csv-atualizado/img/luke-chesser-pJadQetzTkI-unsplash.jpg);
 }
 
 
 main {
-    height: 100vh;
-    min-width: 900px;
-    padding: 3rem 3rem;
+    flex: 1;
+    min-width:0;
+    max-width: 900px;
+    padding: 3rem;
 }
 
 h1 {
@@ -244,7 +245,8 @@ label {
     position: absolute;
     top: 25%;
     left: 50%;
-    width: 31.25em;
+    width: 90%;
+    max-width: 31.25em;
     transform: translate(-50%, -50%);
     padding: 1.25em;
     border-radius: .5em;
@@ -269,4 +271,52 @@ border: 1px solid black;
     color:red;
     cursor: pointer;
     padding: .5px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .menu {
+        position: static;
+        padding: 1rem;
+    }
+
+    .menu-secao-titulo a { font-size: 1.3rem; }
+    .menu-secao-titulo img { width: 2rem; }
+
+    .lista-forms {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: .5rem;
+        padding: 1rem 0 0;
+    }
+
+    .menu li {
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .menu ul a:hover,
+    .menu ul a:focus,
+    .menu ul a.active {
+        transform: none;
+    }
+
+    main { padding: 1rem; }
+
+    .formulario { min-height: auto; }
+    .formulario .data { width: 100%; }
+
+    .box_btns {
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .btn { width: 100%; }
 }
